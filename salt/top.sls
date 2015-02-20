@@ -7,4 +7,4 @@ base:
     - pkgs.iptables
     - selinux
   'class:CS126':
-    - webserver
+    - pkgs.webserver
