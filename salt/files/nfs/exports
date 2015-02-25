@@ -1,0 +1,5 @@
+#/var/test 	*(rw,no_root_squash)
+#/var/test	*(rw)
+/home/public	*(rw,all_squash)
+/home/private	192.168.0.0/24(rw,no_root_squash)
+/home/private	*.acs.edcc.edu(rw,no_root_squash)
