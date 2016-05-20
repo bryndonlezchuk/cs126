@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#function library	Feb 6, 2015
+#function library	May 19, 2016
 #Bryndon Lezchuk (bryndonlezchuk@gmail.com)
 
 INTERACTIVE="ON"
@@ -188,5 +188,16 @@ verifyipv4 () {
 		return true
 	else
 		return false
+	fi
+}
+
+makedir () {
+	local DIR="$1"
+	if [[ ! -d "$DIR" ]]
+	then
+		mkdir "$DIR"
+	else
+		verbout "$DIR already exists"
+		debugout "$DIR already exists"
 	fi
 }
