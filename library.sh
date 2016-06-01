@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#function library	May 19, 2016
+#function library v1.0	May 19, 2016
 #Bryndon Lezchuk (bryndonlezchuk@gmail.com)
 
 INTERACTIVE="ON"
